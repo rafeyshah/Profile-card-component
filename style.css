@@ -1,0 +1,114 @@
+/* Variables */
+:root {
+    /* PRIMARY */
+    --DarkCyan : hsl(185, 75%, 39%);
+    --VeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --DarkGrayishBlue: hsl(227, 10%, 46%);
+    
+    /* NEUTRAL */
+    --DarkGray: hsl(0, 0%, 59%)
+}
+
+/*  Typography
+
+ Body Copy
+
+Font size (name and stats): 18px */
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--DarkCyan);
+}
+
+
+.all{
+    position: fixed;
+    z-index: -1;
+}
+
+.top-left{
+    left: -24%;
+    top: -78%;
+}
+
+.bottom-right{
+    bottom: -95%;
+    right: -18%;
+}
+
+.main{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 380px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.top-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+
+.main-card img{
+    border-radius: 100%;
+    position: relative;
+    top: -60px;
+    border: 5px solid white;
+    
+}
+
+h2{
+    font-size: 18px;
+    color: var(--VeryDarkDesaturatedBlue);
+}
+
+.main-card h2{
+    
+    margin-top: -33px;
+    margin-bottom: 10px;
+}
+
+.main-card h2 span{
+    color: var(--DarkGrayishBlue);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.bottom-card{
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
+.col{
+    color: var(--DarkGrayishBlue);
+}
+
+.col p{
+    margin-top: -9px;
+    margin-bottom: 20px;
+
+}
